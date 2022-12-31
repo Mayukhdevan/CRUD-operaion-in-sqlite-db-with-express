@@ -32,7 +32,7 @@ const initializeDbAndServer = async () => {
 };
 initializeDbAndServer();
 
-Get Books API
+// Get Books API
 app.get("/books/", async (request, response) => {
   const getBooksQuery = `
         SELECT * FROM
